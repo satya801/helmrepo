@@ -6,7 +6,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    app: movie
+    app: bus
   ports:
     - port: 80
       targetPort: 80
