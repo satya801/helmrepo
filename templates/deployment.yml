@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: cont-12
-          image: shaikmustafa/dm
+          image: shaikmustafa/mygame
           ports:
             - containerPort: 80
