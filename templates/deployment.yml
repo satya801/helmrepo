@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: mydeployment
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: bus
@@ -15,7 +15,7 @@ spec:
         app: bus
     spec:
       containers:
-        - name: cont-11
+        - name: cont-12
           image: shaikmustafa/paytm:bus
           ports:
             - containerPort: 80
